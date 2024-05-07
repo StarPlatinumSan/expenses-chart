@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="myBalance">
+    <div class="containValue">
+      <span class="text">My balance</span>
+      <span class="value">$921.48</span>
+    </div>
+    <div class="logo"></div>
+  </div>
+
+  <div class="spending">
+    <div class="title"><span>Spending - Last 7 days</span></div>
+
+    <div class="containDiagram">
+      <div class="monday day">
+        <div class="valueDaily">200</div>
+      </div>
+      <div class="tuesday day">
+        <div class="valueDaily"></div>
+      </div>
+      <div class="wednesday day">
+        <div class="valueDaily"></div>
+      </div>
+      <div class="thursday day"> 
+        <div class="valueDaily"></div>
+      </div>
+      <div class="friday day">
+        <div class="valueDaily"></div>
+      </div>
+      <div class="saturday day">
+        <div class="valueDaily"></div>
+      </div>
+      <div class="sunday day">
+        <div class="valueDaily"></div>
+      </div>
+    </div>
+
+    <div class="weekdays">
+      <span class="mon">mon</span>
+      <span class="tue">tue</span>
+      <span class="wed">wed</span>
+      <span class="thu">thu</span>
+      <span class="fri">fri</span>
+      <span class="sat">sat</span>
+      <span class="sun">sun</span>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="bottom">
+      <div class="total">
+        <div class="textTotal">Total this month</div>
+        <div class="valueTotal"><strong>$478.33</strong></div>
+      </div>
+  
+      <div class="increase">
+        <div class="percentage"><span>+2.4%</span></div>
+        <div class="from-last-month"><span>from last month</span></div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">StarPlatinumSan</a>.
+  </div>
+</body>
+</html>
